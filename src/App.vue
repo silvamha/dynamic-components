@@ -1,7 +1,16 @@
 <template>
-  <p>{{ msg }}</p>
+  <home></home>
+  <about></about>
+  <select v-model="comoponentName"
+    <option value="Home">Home</option>
+    <option value="About"></option>
+  </select>
+  <component :is"></component>
+
 </template>
 <script>
+import Home from './components/Home.vue'
+import About from './components/About.vue'
 /**
  * Returns an object containing the data for the Vue component.
  *
@@ -23,7 +32,7 @@ export default {
 */
   data() {
     return {
-      msg: 'Test Application'
+      comoponentName: "Home",
     }
   }
 }

@@ -1,5 +1,6 @@
 <template>
     <!-- The template section of the Home component -->
+    <h1>Home Page</h1>
 </template>
 
 <script>

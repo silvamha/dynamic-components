@@ -1,5 +1,6 @@
 <template>
     <!-- Add your template code here -->
+    <h1>About Page</h1>
 </template>
 
 <script>
