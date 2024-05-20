@@ -1,28 +1,30 @@
 <template>
-<p>{{ msg }}</p>
+  <p>{{ msg }}</p>
 </template>
 <script>
-  /**
-   * Returns an object containing the data for the Vue component.
-   *
-   * @return {Object} An object with a single property `msg`, which is a string
-   * representing the message to be displayed.
-   */
+/**
+ * Returns an object containing the data for the Vue component.
+ *
+ * @return {Object} An object with a single property `msg`, which is a string
+ * representing the message to be displayed.
+ */
 export default {
   name: 'App',
-components: {
-  About,
-},
+  components: {
+    About,
+    Home
+  },
 
-     /**
-   * Returns an object containing the data for the Vue component.
-   *
-   * @return {Object} An object with a single property `msg`, which is a string
-   * representing the message to be displayed.
-   */
+  /**
+* Returns an object containing the data for the Vue component.
+*
+* @return {Object} An object with a single property `msg`, which is a string
+* representing the message to be displayed.
+*/
   data() {
     return {
       msg: 'Test Application'
     }
-  }}
+  }
+}
 </script>
