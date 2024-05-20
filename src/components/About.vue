@@ -12,6 +12,6 @@
 
 export default {
     // Add your script code here    
-    // name: 'About'
+    name: 'About'
 }
 </script>

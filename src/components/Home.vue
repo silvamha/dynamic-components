@@ -12,7 +12,7 @@
 
 export default {
     // Component options
-    // name: 'Home',
+    name: 'Home',
     unmounted() {
         console.log('Home component unmounted');
     },
