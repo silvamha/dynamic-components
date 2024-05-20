@@ -1,12 +1,11 @@
 <template>
-  <home></home>
-  <about></about>
-  <select v-model="comoponentName"
+  <select v-model="comoponentName">
     <option value="Home">Home</option>
-    <option value="About"></option>
+    <option value="About">About</option>
   </select>
-  <component :is"></component>
-
+  <keep-alive>
+    <component :is="comoponentName"></component>
+  </keep-alive>
 </template>
 <script>
 import Home from './components/Home.vue'
