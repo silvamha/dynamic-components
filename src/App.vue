@@ -10,6 +10,9 @@
    */
 export default {
   name: 'App',
+components: {
+  About,
+},
 
      /**
    * Returns an object containing the data for the Vue component.
